@@ -23,7 +23,7 @@ export const SideBar = () => {
           <span> {name}</span>
         </h3>
 
-        <button className="btn" onClick={handleLogout}>
+        <button className="btn logout" onClick={handleLogout}>
           Logout
         </button>
       </div>
